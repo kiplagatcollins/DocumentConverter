@@ -1,0 +1,22 @@
+# Next.js
+.next/
+out/
+# deps
+node_modules/
+# local
+*.local
+# test / coverage
+coverage/
+# OS
+.DS_Store
+# legacy static (removed in Next.js migration)
+# kept here so accidental re-adds are ignored:
+# (uncomment if needed)
+# index.html
+# app.js
+# style.css
+# vendor/
+# python caches (legacy pytest suite removed)
+__pycache__/
+.pytest_cache/
+.hypothesis/
